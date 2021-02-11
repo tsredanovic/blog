@@ -4,7 +4,7 @@ Blog written by Toni Sredanović.
 
 ## Preview
 
-[![Blog Preview](https://tsredanovic.github.io/blog/img/preview.png)](https://tsredanovic.github.io/blog/)
+[![Blog Preview](https://tsredanovic.github.io/blog/images/preview.png)](https://tsredanovic.github.io/blog/)
 
 **[View Live](https://tsredanovic.github.io/blog/)**
 
