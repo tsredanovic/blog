@@ -2,7 +2,7 @@
 layout: post
 title:  Custom users using Django REST framework
 categories: Django
-excerpt: he built-in Django User model follows the pattern consisted of username, email and password. In this tutorial you will learn to RESTfully simplify it to just email and password.
+excerpt: The built-in Django User model follows the pattern consisted of username, email and password. In this tutorial you will learn to RESTfully simplify it to just email and password.
 ---
 
 ![]({{site.baseurl}}/images/2020-01-07-custom-users-using-django-rest-framework.png)
