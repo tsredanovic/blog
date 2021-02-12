@@ -5,6 +5,8 @@ categories: Django
 excerpt: he built-in Django User model follows the pattern consisted of username, email and password. In this tutorial you will learn to RESTfully simplify it to just email and password.
 ---
 
+![](/images/2020-01-07-custom-users-using-django-rest-framework.png)
+
 ## Custom users using Django REST framework
 
 I started using Django about a year ago which is way later than it was first released. Back then, in 2005, the predominant user pattern consisted of username, email and password. As web development matured over the years we’ve seen this pattern getting simplified to just email and password. The built-in Django [User model](https://docs.djangoproject.com/en/2.2/ref/contrib/auth/#user-model) follows the old pattern and it can take a few extra steps to change it. It is recommended to roll your custom user model from the start of your project as replacing it in a later phase can be quite a hassle. Don’t just take my word for it, see the [official recommendation](https://docs.djangoproject.com/en/2.2/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project). **We will go over the steps necessary to get your customized User model set up so that an email address can be used as the primary identifier, RESTfully exposing his endpoints for client apps to use (ReactJS, iOS, Android and other)**.
