@@ -13,13 +13,13 @@ A virtual environment is a Python environment such that the Python interpreter, 
 
 Now that we got the formal definition out of the way, here is an example:
 
-Lets say you have two projects: `Project A` and `Project B`, both of which have a dependency on the same library, a popular python web framework [Django](https://www.djangoproject.com/)). The problem becomes apparent when we start requiring different versions of Django. Maybe `ProjectA` was built some time ago using Django v1.11, while `ProjectB` is new, fresh and requires the newer Django v3.2, for example.
+Lets say you have two projects: `Project A` and `Project B`, both of which have a dependency on the same library, a popular python web framework [Django](https://www.djangoproject.com/)). The problem becomes apparent when we start requiring different versions of Django. Maybe `ProjectA` was built some time ago using Django v1.11, while `ProjectB` is new, fresh and requires the newer Django v3.2.
 
 The solution here would simply be to create a separate virtual environment for each project and install the appropriate version of Django inside.
 
 ### Creating a virtual environment
 
-Python 3 has the [venv](https://docs.python.org/3/library/venv.html) module from the standard library installed so all you have to do is execute the following command:
+Python 3 has the [venv](https://docs.python.org/3/library/venv.html) module from the standard library installed so all you have to do is execute the following command to create a virtual environment:
 
 ```bash
 python3 -m venv /path/to/new/venv
@@ -36,7 +36,7 @@ It is also worth noting that this directory should be ignored with `.gitignore` 
 
 ### Activating a virtual environment
 
-Once a virtual environment has been created, it can be activated using a script in the virtual environment’s `bin` directory. The invocation of the script is platform-specific:
+Once a virtual environment has been created, it can be activated using a script in the virtual environment's `bin` directory. The invocation of the script is platform-specific:
 
 | Platform | Shell           | Command to activate                          |
 | -------- | --------------- | -------------------------------------------- |
@@ -60,7 +60,7 @@ After activation you can use [pip](https://pip.pypa.io/en/stable/) as you normal
 
 For example running a `pip freeze` command, which outputs installed packages, would not output anything initially. You can install some packages like Django and all of its dependencies with `pip install Django`. Running `pip freeze` again would now return:
 
-```bash
+```
 asgiref==3.3.4
 Django==3.2.4
 pytz==2021.1
@@ -76,7 +76,7 @@ pip freeze > requirements.txt
 
 ### Deactivating a virtual environment
 
-You can deactivate your virtual environment and go back to the system context by executing deactivate in you command prompt like so:
+You can deactivate your virtual environment and go back to the system context by executing `deactivate` in you command prompt like so:
 
 ```bash
 (venv) ...$ deactivate
@@ -84,6 +84,8 @@ You can deactivate your virtual environment and go back to the system context by
 ```
 
 ### Useful links
+
+Here are a few interesting projects which expand on the virtual environment's functionality:
 
 - [virtualenvwrapper](https://pypi.org/project/virtualenvwrapper/) - a useful set of scripts for creating and deleting virtual environments
 
