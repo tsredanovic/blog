@@ -9,12 +9,6 @@ excerpt: CheckIp is a python package used to resolve public (WAN) IP from one of
 
 CheckIp is a python package used to resolve public (WAN) IP from one of many supported providers.
 
-Just some of those supported providers are:
-- `cloudflare`
-- `dyndns`
-- `googledomains`
-- `noip`
-
 Usage is as simple as:
 ```python
 >>> from checkip import get_ip
@@ -29,4 +23,4 @@ It can even use multiple providers to resolve the public IP if one (or more) of 
 '141.136.171.75'
 ```
 
-Docs, installation and usage instructions can be found [here](https://github.com/tsredanovic/checkip).
+Docs, installation, usage and more can be found [here](https://github.com/tsredanovic/checkip).
