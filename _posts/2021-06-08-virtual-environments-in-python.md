@@ -17,6 +17,8 @@ Lets say you have two projects: `Project A` and `Project B`, both of which have 
 
 The solution here would simply be to create a separate virtual environment for each project and install the appropriate version of Django inside.
 
+**Versions used:** Python 3.7.9
+
 ### Creating a virtual environment
 
 Python 3 has the [venv](https://docs.python.org/3/library/venv.html) module from the standard library installed so all you have to do is execute the following command to create a virtual environment:
