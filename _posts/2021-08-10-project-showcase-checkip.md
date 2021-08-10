@@ -5,7 +5,7 @@ categories: Python
 excerpt: CheckIp is a python package used to resolve public (WAN) IP from one of many supported providers.
 ---
 
-## Project Showcase - CheckIp
+## Project Showcase - [CheckIp](https://github.com/tsredanovic/checkip)
 
 CheckIp is a python package used to resolve public (WAN) IP from one of many supported providers.
 
@@ -29,4 +29,4 @@ It can even use multiple providers to resolve the public IP if one (or more) of 
 '141.136.171.75'
 ```
 
-Docs, installation and usage instructions can be found here: https://github.com/tsredanovic/checkip.
+Docs, installation and usage instructions can be found [here](https://github.com/tsredanovic/checkip).
