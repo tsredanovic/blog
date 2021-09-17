@@ -7,7 +7,7 @@ excerpt: DynamicFlare is a python script which can be set up as a cron job to up
 
 ## Project Showcase - [DynamicFlare](https://github.com/tsredanovic/dynamicflare)
 
-DynamicFlare is a python script which can be set up as a cron job to update dynamic DNS entries (dynamic IP) for accounts on CloudFlare's DNS service.
+DynamicFlare is a python script which can be set up as a cron job to update dynamic DNS entries (dynamic IP) for accounts on [CloudFlare](https://www.cloudflare.com/) DNS service.
 
 It only requires a `config.json` file with your CloudFlare API token and a list of A record objects to update:
 
