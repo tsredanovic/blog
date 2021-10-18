@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Build Aseprite from source on Linux
-categories: Aseprite, Linux
+categories: [Aseprite,Linux]
 excerpt: Aseprite is an animated sprite editor and pixel art tool. This tutorial shows how to install it on Linux OS.
 ---
 
