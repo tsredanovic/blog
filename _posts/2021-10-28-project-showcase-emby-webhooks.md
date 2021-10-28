@@ -24,5 +24,4 @@ Messages are generated using the [Jinja](https://jinja.palletsprojects.com/) tem
 
 It can be set up to run either as a [Systemd](https://systemd.io/) service or with [Docker](https://www.docker.com/).
 
-
 Docs, installation, and usage can be found [here](https://github.com/tsredanovic/emby-webhooks).
