@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Project Showcase - CheckIp
+title:  Project Showcase => CheckIp
 categories: Python
 excerpt: CheckIp is a python package used to resolve public (WAN) IP from one of many supported providers.
 ---
 
-## Project Showcase - [CheckIp](https://github.com/tsredanovic/checkip)
+## Project Showcase => [CheckIp](https://github.com/tsredanovic/checkip)
 
 CheckIp is a python package used to resolve public (WAN) IP from one of many supported providers.
 
