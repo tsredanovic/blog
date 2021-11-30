@@ -17,7 +17,7 @@ In this tutorial I will go over how to get the Aseprite source code, install req
 
 Official installation instructions can be found [here](https://github.com/aseprite/aseprite/blob/main/INSTALL.md).
 
-**Versions used:** Ubuntu 20.04 LTS
+**Versions used:** Ubuntu 20.04 LTS, Aseprite v1.2.29
 
 ### Repository
 
@@ -26,7 +26,7 @@ The following commands will clone Aseprite source code inside the `~/Aseprite/as
 ```
 mkdir ~/Aseprite
 cd ~/Aseprite
-git clone --recursive https://github.com/aseprite/aseprite.git
+git clone --branch v1.2.29 --recursive https://github.com/aseprite/aseprite.git
 cd aseprite
 git pull
 git submodule update --init --recursive
@@ -107,10 +107,16 @@ Now you can run aseprite with the following command:
 If you want to make an application for Aseprite, instead of running it with a command, you will need to create a `.desktop` file for it:
 
 ```
-sudo nano /usr/share/applications/aseprite.desktop
+cd ~/Aseprite
+mkdir app
+cd app
 ```
 
-Enter the following content:
+```
+sudo nano ~/Aseprite/app/aseprite.desktop
+```
+
+Enter the following content (make sure to replace `/full/path/to` with a full path to those files):
 
 ```
 [Desktop Entry]
@@ -118,11 +124,17 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Name=Aseprite
-Icon=~/Aseprite/aseprite/data/icons/ase256.png
-Path=~/Aseprite/aseprite/
-Exec=~/Aseprite/aseprite/build/bin/aseprite
+Icon=/full/path/to/Aseprite/aseprite/data/icons/ase256.png
+Path=/full/path/to/Aseprite/aseprite/
+Exec=/full/path/to/Aseprite/aseprite/build/bin/aseprite
 StartupNotify=false
 OnlyShowIn=GNOME;Unity;
 ```
 
-Save, exit and enjoy drawing.
+Save this content and run installation:
+
+```
+sudo desktop-file-install ~/Aseprite/app/aseprite.desktop
+```
+
+Enjoy drawing.
