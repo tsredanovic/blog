@@ -2,7 +2,7 @@
 layout: post
 title:  Encrypted volumes part 2 - LUKS
 categories: [LUKS,Encryption,Disk]
-excerpt:  Part 2 of creating an encrypted logical volume using LVM and LUKS with automatic mounting
+excerpt:  Part 2 of creating an encrypted logical volume using LVM and LUKS with automatic mounting.
 ---
 
 ![]({{site.baseurl}}/images/2024-01-12-encrypted-volumes-part-2-luks.png)

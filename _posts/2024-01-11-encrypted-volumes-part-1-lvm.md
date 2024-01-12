@@ -2,7 +2,7 @@
 layout: post
 title:  Encrypted volumes part 1 - LVM
 categories: [LVM,Physical,Logical,Disk]
-excerpt:  Part 1 of creating an encrypted logical volume using LVM and LUKS with automatic mounting
+excerpt:  Part 1 of creating an encrypted logical volume using LVM and LUKS with automatic mounting.
 ---
 
 ![]({{site.baseurl}}/images/2024-01-11-encrypted-volumes-part-1-lvm.png)
