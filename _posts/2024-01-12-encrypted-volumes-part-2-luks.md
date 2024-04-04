@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Encrypted volumes part 2 - LUKS
+title:  Encrypted volumes part 2 / LUKS
 categories: [LUKS,Encryption,Disk]
 excerpt:  Part 2 of creating an encrypted logical volume using LVM and LUKS with automatic mounting.
 ---
 
 ![]({{site.baseurl}}/images/2024-01-12-encrypted-volumes-part-2-luks.png)
 
-## Encrypted volumes part 2 - LUKS
+## Encrypted volumes part 2 / LUKS
 
 Linux Unified Key Setup (LUKS) is a disk encryption specification which we will use to encrypt a logical volume created in previous post (part 1).
 

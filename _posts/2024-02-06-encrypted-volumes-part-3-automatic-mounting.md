@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Encrypted volumes part 3 - Automatic mounting
+title:  Encrypted volumes part 3 / Automatic mounting
 categories: [Automatic,Mount,Cloudflare,Worker,Disk]
 excerpt:  Part 3 of creating an encrypted logical volume using LVM and LUKS with automatic mounting.
 ---
 
 ![]({{site.baseurl}}/images/2024-02-06-encrypted-volumes-part-3-automatic-mounting.png)
 
-## Encrypted volumes part 3 - Automatic mounting
+## Encrypted volumes part 3 / Automatic mounting
 
 Automatically mounting encrypted volumes is pretty simple if the passphrase is stored locally. But then what is even the point of encrypting volumes if the passphrase for unlocking is sitting right next to them. That is why we will set up a remote service from which the passphrase can be fetched.
 
